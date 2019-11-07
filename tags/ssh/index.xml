@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks | Hanno Kase</title>
-    <link>https://www.hannokase.com/talk/</link>
-      <atom:link href="https://www.hannokase.com/talk/index.xml" rel="self" type="application/rss+xml" />
-    <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <title>SSH | Hanno Kase</title>
+    <link>https://www.hannokase.com/tags/ssh/</link>
+      <atom:link href="https://www.hannokase.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <description>SSH</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 06 Nov 2019 14:00:00 +0100</lastBuildDate>
     <image>
       <url>https://www.hannokase.com/img/icon-192.png</url>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://www.hannokase.com/talk/</link>
+      <title>SSH</title>
+      <link>https://www.hannokase.com/tags/ssh/</link>
     </image>
     
     <item>

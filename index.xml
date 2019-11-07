@@ -5,12 +5,20 @@
     <link>https://www.hannokase.com/</link>
       <atom:link href="https://www.hannokase.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Hanno Kase</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 06 Nov 2019 14:00:00 +0100</lastBuildDate>
     <image>
       <url>https://www.hannokase.com/img/icon-192.png</url>
       <title>Hanno Kase</title>
       <link>https://www.hannokase.com/</link>
     </image>
+    
+    <item>
+      <title>HPC Workshop for Beginners</title>
+      <link>https://www.hannokase.com/talk/hpc-beginners/</link>
+      <pubDate>Wed, 06 Nov 2019 14:00:00 +0100</pubDate>
+      <guid>https://www.hannokase.com/talk/hpc-beginners/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CV</title>
