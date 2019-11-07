@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Hanno Kase</title>
+    <link>https://www.hannokase.com/publication/</link>
+      <atom:link href="https://www.hannokase.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://www.hannokase.com/img/icon-192.png</url>
+      <title>Publications</title>
+      <link>https://www.hannokase.com/publication/</link>
+    </image>
+    
+    <item>
+      <title>Introducing loan-to-value limit on mortgage loans</title>
+      <link>https://www.hannokase.com/publication/work-in-progress/optimal-ltv-path/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.hannokase.com/publication/work-in-progress/optimal-ltv-path/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

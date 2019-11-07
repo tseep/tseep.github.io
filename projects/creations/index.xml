@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Creations on Hanno Kase</title>
+    <link>http://www.hannokase.com/projects/creations/</link>
+    <description>Recent content in Creations on Hanno Kase</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://www.hannokase.com/projects/creations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
