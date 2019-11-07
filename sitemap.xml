@@ -77,6 +77,11 @@
   </url>
   
   <url>
+    <loc>https://www.hannokase.com/talk/</loc>
+    <lastmod>2019-11-07T17:05:29+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hannokase.com/publication_types/</loc>
     <lastmod>2019-11-07T10:23:25+01:00</lastmod>
   </url>
@@ -84,11 +89,6 @@
   <url>
     <loc>https://www.hannokase.com/publication/</loc>
     <lastmod>2019-11-07T10:23:25+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hannokase.com/talk/</loc>
-    <lastmod>2019-11-07T17:05:29+01:00</lastmod>
   </url>
   
 </urlset>

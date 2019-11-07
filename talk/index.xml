@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks | Hanno Kase</title>
+    <title>Presentations | Hanno Kase</title>
     <link>https://www.hannokase.com/talk/</link>
       <atom:link href="https://www.hannokase.com/talk/index.xml" rel="self" type="application/rss+xml" />
-    <description>Recent &amp; Upcoming Talks</description>
+    <description>Presentations</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>https://www.hannokase.com/img/icon-192.png</url>
-      <title>Recent &amp; Upcoming Talks</title>
+      <title>Presentations</title>
       <link>https://www.hannokase.com/talk/</link>
     </image>
     
