@@ -12,37 +12,5 @@
       <link>https://www.hannokase.com/tags/</link>
     </image>
     
-    <item>
-      <title>Cluster</title>
-      <link>https://www.hannokase.com/tags/cluster/</link>
-      <pubDate>Wed, 06 Nov 2019 14:00:00 +0100</pubDate>
-      <guid>https://www.hannokase.com/tags/cluster/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HPC</title>
-      <link>https://www.hannokase.com/tags/hpc/</link>
-      <pubDate>Wed, 06 Nov 2019 14:00:00 +0100</pubDate>
-      <guid>https://www.hannokase.com/tags/hpc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PBS</title>
-      <link>https://www.hannokase.com/tags/pbs/</link>
-      <pubDate>Wed, 06 Nov 2019 14:00:00 +0100</pubDate>
-      <guid>https://www.hannokase.com/tags/pbs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SSH</title>
-      <link>https://www.hannokase.com/tags/ssh/</link>
-      <pubDate>Wed, 06 Nov 2019 14:00:00 +0100</pubDate>
-      <guid>https://www.hannokase.com/tags/ssh/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
