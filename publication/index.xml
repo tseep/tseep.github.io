@@ -13,14 +13,6 @@
     </image>
     
     <item>
-      <title>Solving New Keynesian Models with Machine Learning: A Neural Network Approach</title>
-      <link>https://www.hannokase.com/publication/work-in-progress/deep-learning-zlb/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.hannokase.com/publication/work-in-progress/deep-learning-zlb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Backpropagating through heterogeneous agent models</title>
       <link>https://www.hannokase.com/publication/work-in-progress/backpropagation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -41,6 +33,14 @@
       <link>https://www.hannokase.com/publication/work-in-progress/optimal-ltv-path/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.hannokase.com/publication/work-in-progress/optimal-ltv-path/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solving New Keynesian Models with Machine Learning: A Neural Network Approach</title>
+      <link>https://www.hannokase.com/publication/work-in-progress/deep-learning-zlb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.hannokase.com/publication/work-in-progress/deep-learning-zlb/</guid>
       <description></description>
     </item>
     

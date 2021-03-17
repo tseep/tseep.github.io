@@ -3,22 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.hannokase.com/publication_types/4/</loc>
-    <lastmod>2020-12-14T13:00:30+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.hannokase.com/authors/</loc>
-    <lastmod>2020-12-14T13:00:30+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hannokase.com/publication_types/</loc>
-    <lastmod>2020-12-14T13:00:30+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hannokase.com/publication/work-in-progress/deep-learning-zlb/</loc>
     <lastmod>2020-12-14T13:00:30+01:00</lastmod>
   </url>
   
@@ -63,12 +48,7 @@
   </url>
   
   <url>
-    <loc>https://www.hannokase.com/authors/admin/</loc>
-    <lastmod>2019-11-07T10:23:25+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.hannokase.com/authors/mrottner/</loc>
+    <loc>https://www.hannokase.com/publication_types/4/</loc>
     <lastmod>2020-12-14T13:00:30+01:00</lastmod>
   </url>
   
@@ -87,7 +67,17 @@
   </url>
   
   <url>
+    <loc>https://www.hannokase.com/authors/admin/</loc>
+    <lastmod>2019-11-07T10:23:25+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hannokase.com/publication/work-in-progress/optimal-ltv-path/</loc>
+    <lastmod>2020-12-14T13:00:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hannokase.com/authors/mrottner/</loc>
     <lastmod>2020-12-14T13:00:30+01:00</lastmod>
   </url>
   
@@ -102,8 +92,18 @@
   </url>
   
   <url>
+    <loc>https://www.hannokase.com/publication_types/</loc>
+    <lastmod>2020-12-14T13:00:30+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.hannokase.com/publication/</loc>
     <lastmod>2019-11-07T10:23:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hannokase.com/publication/work-in-progress/deep-learning-zlb/</loc>
+    <lastmod>2020-12-14T13:00:30+01:00</lastmod>
   </url>
   
 </urlset>

@@ -1,99 +1,230 @@
 
     \documentclass[a4, 11pt]{article}
 
-    \usepackage{hyperref}
-    \hypersetup{colorlinks=true, linkcolor=black, urlcolor=black}
+    \usepackage{latexsym}
+    \usepackage[empty]{fullpage}
+    \usepackage{titlesec}
+    \usepackage{marvosym}
+    \usepackage[usenames,dvipsnames]{color}
+    \usepackage{verbatim}
+    \usepackage{enumitem}
+    \usepackage[hidelinks]{hyperref}
+    \usepackage{fancyhdr}
     \usepackage[margin=1in]{geometry}
     \usepackage{float}
+    \usepackage{array}
+    \usepackage{tabularx}
+    \input{glyphtounicode}
 
-    \title{ {\Huge  Hanno Kase} }
-    \date{}
+    %----HEADER----
+    \pagestyle{fancy}
+    \fancyhf{} % clear all header and footer fields
+    \fancyfoot{}
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+
+    %----PAGE GEOMETRY----
+    \addtolength{\oddsidemargin}{-0.5in}
+    \addtolength{\evensidemargin}{-0.5in}
+    \addtolength{\textwidth}{1in}
+    \addtolength{\topmargin}{-.5in}
+    \addtolength{\textheight}{1.0in}
+
+    \raggedbottom
+    \raggedright
+
+    %----SECTIONS----
+    \titleformat{\section}{\vspace{-4pt}\scshape\raggedright\large}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+    \titleformat{\subsection}{\vspace{-4pt}\itshape\raggedright\large}{}{0em}{}[\color{black} \vspace{-5pt}]
+
+    \newcommand{\resumeItem}[1]{
+      \item\small{
+        {#1 \vspace{-2pt}}
+      }
+    }
+
+    \newcommand{\resumeSubheading}[4]{
+      \vspace{-2pt}\item
+        \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+          \textbf{#1} & #2 \\
+          \textit{\small#3} & \textit{\small #4} \\
+        \end{tabular*}
+    }
+
+    \newcommand{\resumeSubSubheading}[2]{
+        \item
+        \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+          \textit{\small#1} & \textit{\small #2} \\
+        \end{tabular*}\vspace{-7pt}
+    }
+
+    \newcommand{\resumePublicationHeading}[3]{
+        \item
+        \begin{tabularx}{0.97\textwidth}{X@{\extracolsep{2em}}r}
+          #1 & #2 \\
+          \multicolumn{2}{l}{\textit{\small#3}}
+        \end{tabularx}
+    }
+
+    \newcommand{\resumeOtherHeading}[2]{
+      \item
+      \begin{tabularx}{0.97\textwidth}{X@{\extracolsep{2em}}r}
+        #1 & #2
+      \end{tabularx}
+    }
+
+    \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+    \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+    \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+    \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+    \newcommand{\resumeItemListStart}{\begin{itemize}}
+    \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+    %----MISCELLANEOUS----
+    \urlstyle{same}
+    \setlength{\tabcolsep}{0in}
+
+    % Ensure that generate pdf is machine readable/ATS parsable
+    \pdfgentounicode=1
 
     \begin{document}
-    \maketitle
+
+    \begin{center}
+        \textbf{\Huge \scshape Hanno Kase} \\ \vspace{1pt}
+    \end{center}
 
     % About and contact information
 
     \section*{Contact Information}
     \begin{table}[H]
-      \begin{tabular}{ll}\href{https://www.eui.eu/}{European University Institute}&\\
-        via delle Fontanelle 18, San Domenico di Fiesole&
-        Email: \href{mailto:Hanno.Kase@EUI.eu}{Hanno.Kase@EUI.eu} \\
-        50014, Italy& Personal page: \href{https://www.hannokase.com}{https://www.hannokase.com}
+      \begin{tabular}{>{\raggedright\arraybackslash}p{0.5\linewidth}>{\raggedleft\arraybackslash}p{0.5\linewidth}}Phone: +372 5347 7686 &\href{https://www.eui.eu/}{European University Institute}\\
+          Email: \href{mailto:Hanno.Kase@EUI.eu}{Hanno.Kase@EUI.eu}
+        & via delle Fontanelle 18, San Domenico di Fiesole\\
+        Personal page: \href{https://www.hannokase.com}{https://www.hannokase.com} & 50014, Italy\\
+        Skype name: \href{skype:hanno\_kase?call}{hanno\_kase} &
       \end{tabular}
     \end{table}
 
-    \section*{Research interests}Macroeconomics, Banking regulation, Macroprudential policies, Computational methods
+    \section{Research interests}Macroeconomics, Banking regulation, Macroprudential policies, Computational methods
 
     % Education
-    \section*{Education}\begin{table}[H]
-        \begin{tabular}{p{2.5cm}p{13.5cm}}
-            2016-2021 & \textbf{PhD in Economics}, \href{https://www.eui.eu}{European University Institute}\\
-            2011-2013 & \textbf{MA in Finance}, \href{https://www.ttu.ee/en}{Tallinn University of Technology}\\
-            2008-2011 & \textbf{BA in Economics}, \href{https://www.ttu.ee/en}{Tallinn University of Technology}\\
-        \end{tabular}
-      \end{table}
+    \section{Education}\resumeSubHeadingListStart
+          \resumeSubheading
+            {\href{https://www.eui.eu}{European University Institute} }
+            {}
+            {PhD in Economics}
+            { 2016-2021 }
+          \resumeSubheading
+            {\href{https://www.ttu.ee/en}{Tallinn University of Technology} }
+            {}
+            {MA in Finance}
+            { 2011-2013 }
+          \resumeSubheading
+            {\href{https://www.ttu.ee/en}{Tallinn University of Technology} }
+            {}
+            {BA in Economics}
+            { 2008-2011 }
+      \resumeSubHeadingListEnd
 
     % Experience
-    \section*{Experience}
-  \begin{table}[H]
-      \begin{tabular}{p{2.5cm}p{13.5cm}}
-          2020-Present & Research Assistant  {to Prof. Aldo Rustichini and Prof. Andrea Ichino} \\
-          2019-2020 & EUI HPC Tutor at the  \href{https://www.eui.eu/ServicesAndAdmin/ComputingService/HeavyComputationalTasks}{European University Institute} \\
-          2019 & Visiting Researcher at the  \href{https://www.eestipank.ee/en}{Research Department, Bank of Estonia} \\
-          2018-2019 & Research Assistant  {to Prof. Andrea Mattozzi} \\
-          2012-2016 & Economist at the  \href{https://www.eestipank.ee/en}{Financial Stability Department, Bank of Estonia} \\
-      \end{tabular}
-    \end{table}
-
+    \section{Experience}
+  \resumeSubHeadingListStart
+        \resumeSubheading
+          {Research Associate}
+          {2020}
+          {\href{https://covid-19.eui.eu/client/en_GB/covid19-ssh-data/search/results?te=COVID19}{COVID-19 Social Sciences and Humanities Data Portal} }
+          {}
+        \resumeSubheading
+          {Research Assistant to Prof. Aldo Rustichini and Prof. Andrea Ichino}
+          {2020}
+          {{University of Minnesota, European University Institute} }
+          {}
+        \resumeSubheading
+          {EUI HPC Tutor}
+          {2019-2021}
+          {\href{https://www.eui.eu/ServicesAndAdmin/ComputingService/HeavyComputationalTasks}{European University Institute} }
+          {}
+        \resumeSubheading
+          {Visiting Researcher}
+          {2019}
+          {\href{https://www.eestipank.ee/en}{Research Department, Bank of Estonia} }
+          {}
+        \resumeSubheading
+          {Research Assistant to Prof. Andrea Mattozzi}
+          {2018-2019}
+          {{European University Institute} }
+          {}
+        \resumeSubheading
+          {Economist}
+          {2012-2016}
+          {\href{https://www.eestipank.ee/en}{Financial Stability Department, Bank of Estonia} }
+          {}
+    \resumeSubHeadingListEnd
 
     % Teaching
-    \section*{Teaching experience}
-  \begin{table}[H]
-      \begin{tabular}{p{2cm}p{14cm}}
-          2015 & {Derivative Instruments} at \href{https://www.ttu.ee/en}{Tallinn University of Technology}, Teaching Assistant\\
-      \end{tabular}
-    \end{table}
-
+    \section{Teaching experience}
+  \resumeSubHeadingListStart
+        \resumeSubheading
+          {{Derivative Instruments} }
+          {2015}
+          {Teaching Assistant}
+          { \href{https://www.ttu.ee/en}{Tallinn University of Technology} }
+    \resumeSubHeadingListEnd
 
     % Publications
-    \section*{Research}\subsection*{Work in Progress}
-      Kase, \href{https://sites.google.com/view/matthias-rottner/home}{Rottner}. (2020). \textbf{Solving New Keynesian Models with Machine Learning: A Neural Network Approach}\\
-      Kase. \textbf{Backpropagating through heterogeneous agent models}\\
-      Kase. \textbf{Combining limits on mortgage lending}\\
-      Kase. \textbf{Introducing loan-to-value limit on mortgage loans}\\
-
+    \pagebreak
+    \section*{Research}\subsection{Work in Progress}
+        \resumeSubHeadingListStart\resumePublicationHeading
+{ \textbf{Backpropagating through heterogeneous agent models}\\ }
+{}
+{}\resumePublicationHeading
+{ \textbf{Combining limits on mortgage lending}\\ }
+{}
+{}\resumePublicationHeading
+{ \textbf{Introducing loan-to-value limit on mortgage loans}\\ }
+{}
+{}\resumePublicationHeading
+{ \textbf{Solving New Keynesian Models with Machine Learning: A Neural Network Approach}\\ with \href{https://sites.google.com/view/matthias-rottner/home}{Matthias Rottner} }
+{}
+{}\resumeSubHeadingListEnd
 
     % Seminars and conferences
     \section*{Seminars \& Conferences}
-\begin{table}[H]
-    \begin{tabular}{p{2cm}p{14cm}}
-        2019 & {Christmas seminar} at {the Bank of Estonia}\\
-        2018 & {Christmas seminar} at {the Bank of Estonia}\\
-    \end{tabular}
-  \end{table}
-
+  \resumeSubHeadingListStart
+        \resumeOtherHeading
+          {{Macro Working Group} at {European University Institute} }
+          { 2020 }
+        \resumeOtherHeading
+          {{Bank of Estonia Christmas Seminar} at {the Bank of Estonia} }
+          { 2019 }
+        \resumeOtherHeading
+          {{Bank of Estonia Christmas Seminar} at {the Bank of Estonia} }
+          { 2018 }
+    \resumeSubHeadingListEnd
 
     % Skills
-    \section*{Skills}\begin{table}[H]
-    \begin{tabular}{p{5cm}p{11cm}}
-        Programming languages & Python, Julia, MATLAB, R \\
-        Machine learning & PyTorch, Google JAX \\
-        Statistical software & Stata, EViews \\
-        Other & LaTeX, SQL, git, MS Office \\
-        Language skills & Estonian, English, German, Italian \\
-    \end{tabular}
-  \end{table}
-
+    \section{Skills}\begin{itemize}[leftmargin=0.15in, label = {}]
+      \item \small{ \textbf{Programming languages}: Python, Julia, MATLAB, R}
+      \item \small{ \textbf{Machine learning}: PyTorch, Google JAX}
+      \item \small{ \textbf{Statistical software}: Stata, EViews}
+      \item \small{ \textbf{Other}: LaTeX, SQL, git, MS Office}
+      \item \small{ \textbf{Language skills}: Estonian, English}
+  \end{itemize}
 
     % Awards and Grants
-    \section*{Awards \& Grants}
-  \begin{table}[H]
-      \begin{tabular}{p{2.5cm}p{13.5cm}}
-          2016-2020 & {Archimedes Grant for Estonian PhD students}{} to study at the PhD program at the European University Institute\\
-          2014 & {5th Lindau Meeting on Economic Sciences}{}\\
-      \end{tabular}
-    \end{table}
+    \section{Awards \& Grants}
+  \resumeSubHeadingListStart
+        \resumeOtherHeading
+          {  {Archimedes Grant for Estonian PhD students}{} }
+          { 2016-2020 }
+          {to study at the PhD program at the European University Institute}
+        \resumeOtherHeading
+          {  {5th Lindau Meeting on Economic Sciences}{} }
+          { 2014 }
+          {}
+    \resumeSubHeadingListEnd
 
     \end{document}
   
